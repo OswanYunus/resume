@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume - Oswan Yunus</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+
+    * { box-sizing: border-box; }
+
+    body {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 10.5pt;
+        line-height: 1.35;
+        color: #111;
+        background: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+
+    .page {
+        width: 850px;
+        margin: 24px auto;
+        background: #fff;
+        padding: 40px 48px;
+    }
+
+    /* Header */
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 10px;
+    }
+
+    .header .left, .header .right {
+        font-size: 10pt;
+        line-height: 1.4;
+        white-space: nowrap;
+    }
+
+    .header .right { text-align: right; }
+
+    .header .center {
+        flex: 1;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .header .center h1 {
+        font-size: 30pt;
+        font-weight: 700;
+        margin: 0;
+        letter-spacing: 0.5px;
+    }
+
+    hr.thick {
+        border: none;
+        border-top: 2px solid #000;
+        margin: 0 0 4px 0;
+    }
+
+    hr.thin {
+        border: none;
+        border-top: 1px solid #000;
+        margin: 4px 0;
+    }
+
+    .section-title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 13pt;
+        letter-spacing: 1px;
+        margin: 2px 0;
+    }
+
+    section { margin-bottom: 6px; }
+
+    /* Education */
+    .edu-entry {
+        display: flex;
+        gap: 14px;
+        margin: 14px 0;
+    }
+
+    .edu-logo {
+        width: 46px;
+        height: 46px;
+        flex-shrink: 0;
+        background: #7a1f2b;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 15pt;
+        border-radius: 3px;
+    }
+
+    .edu-body { flex: 1; }
+
+    .edu-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .edu-name { font-weight: 700; }
+
+    .edu-degree {
+        text-align: right;
+        font-style: italic;
+        white-space: nowrap;
+        margin-left: 20px;
+    }
+
+    .edu-sub {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .coursework-label { font-weight: 700; }
+    .coursework-text { margin: 0; }
+
+    /* Experience */
+    .job {
+        margin: 16px 0;
+    }
+
+    .job-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .job-title { font-weight: 700; }
+
+    .job-dates {
+        font-style: italic;
+        white-space: nowrap;
+        margin-left: 20px;
+    }
+
+    .job-location {
+        margin-bottom: 4px;
+    }
+
+    ul.bullets {
+        margin: 4px 0 0 0;
+        padding-left: 0;
+        list-style: none;
+    }
+
+    ul.bullets li {
+        padding-left: 16px;
+        text-indent: -16px;
+        margin-bottom: 2px;
+    }
+
+    ul.bullets li:before {
+        content: "– ";
+    }
+
+    /* Skills */
+    .skills-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px 40px;
+        margin-top: 10px;
+    }
+
+    .skills-grid div { }
+
+    .skill-label { font-weight: 700; }
+
+    /* Projects */
+    .project {
+        margin: 10px 0;
+    }
+
+    .project-title { font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="page">
+
+    <!-- Header -->
+    <div class="header">
+        <div class="left">
+            Mombasa, Kenya
+        </div>
+        <div class="center">
+            <h1>Oswan Yunus</h1>
+        </div>
+        <div class="right">
+            +254 791 58 4056<br>
+            oswanbarackyunus@gmail.com<br>
+            github.com/OswanYunus<br>
+            linkedin.com/in/OswanYunus
+        </div>
+    </div>
+    <hr class="thin">
+
+    <!-- Education -->
+    <section>
+        <hr class="thick">
+        <div class="section-title">EDUCATION</div>
+        <hr class="thick">
+
+        <div class="edu-entry">
+            <div class="edu-logo">CU</div>
+            <div class="edu-body">
+                <div class="edu-top">
+                    <div class="edu-name">Chuka University &mdash; Chuka, Kenya</div>
+                    <div class="edu-degree">Bachelor of Science in Computer Science</div>
+                </div>
+                <div class="edu-sub">
+                    <div></div>
+                    <div>September 2023 &ndash; Expected September 2027</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section>
+        <hr class="thick">
+        <div class="section-title">EXPERIENCE</div>
+        <hr class="thick">
+
+        <div class="job">
+            <div class="job-top">
+                <div class="job-title">Software Development Intern (Attach&eacute;) &mdash; Elpo Technologies Limited</div>
+                <div class="job-dates">May 2, 2026 &ndash; August 2, 2026</div>
+            </div>
+            <div class="job-location">Chuka, Tharaka Nithi, Kenya</div>
+            <ul class="bullets">
+                <li>Developed and maintained web applications using React and Next.js</li>
+                <li>Built and contributed to Smart Duka, a scalable Point-of-Sale (POS) system, using Java and Laravel</li>
+                <li>Produced graphic design assets and marketing material using Canva and Adobe</li>
+                <li>Collaborated with the development team on feature builds and testing</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-top">
+                <div class="job-title">Mobile Application Developer (Volunteer) &mdash; Stemforothers</div>
+                <div class="job-dates">2026 &ndash; Present</div>
+            </div>
+            <div class="job-location">Remote &mdash; California, USA</div>
+            <ul class="bullets">
+                <li>Built a mobile equivalent of the organization's existing web platform using Flutter and Dart</li>
+                <li>Worked from a TypeScript-based web application to replicate its design and functionality on mobile</li>
+                <li>Supported a non-profit initiative helping students access learning materials online</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <hr class="thick">
+        <div class="section-title">SKILLS</div>
+        <hr class="thick">
+        <div class="skills-grid">
+            <div><span class="skill-label">Mobile Development:</span> Flutter, Dart</div>
+            <div><span class="skill-label">Backend (Mobile):</span> Firebase</div>
+            <div><span class="skill-label">Frontend (Web):</span> React, Next.js</div>
+            <div><span class="skill-label">Languages:</span> JavaScript, TypeScript, Java, Python</div>
+            <div><span class="skill-label">Frameworks:</span> Laravel</div>
+            <div><span class="skill-label">Design Tools:</span> Canva, Adobe</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <hr class="thick">
+        <div class="section-title">PROJECTS</div>
+        <hr class="thick">
+        <div class="project">
+            <div class="project-title">Jarvis &mdash; Personal AI Assistant</div>
+            <div>Built a personal AI assistant using Ollama and Python.</div>
+        </div>
+        <div class="project">
+            <div class="project-title">Browser Web Extensions</div>
+            <div>Designed and built custom web extensions, available on GitHub.</div>
+        </div>
+    </section>
+
+</div>
+</body>
+</html>
