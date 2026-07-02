@@ -199,15 +199,6 @@
         cursor: pointer;
     }
 
-    .pdf-button:hover {
-        background: #333;
-    }
-
-    @media print {
-        .pdf-button, .button-container { display: none; }
-        body { background: #fff; }
-        .page { box-shadow: none; margin: 0; width: auto; padding: 24px; }
-    }
 </style>
 </head>
 <body>
@@ -227,9 +218,6 @@
             github.com/OswanYunus<br>
             linkedin.com/in/OswanYunus
         </div>
-    </div>
-    <div class="button-container">
-        <button class="pdf-button" type="button" onclick="downloadPdf()">Download as PDF</button>
     </div>
     <hr class="thin">
 
@@ -319,5 +307,5 @@
     </section>
 
 </div>
-</body>`n<script>`n    function downloadPdf() {`n        window.print();`n    }`n</script>
+</body>
 </html>
